@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-zstd-master.flake = false;
+  inputs.src-zstd-master.ref   = "refs/heads/master";
   inputs.src-zstd-master.owner = "wltsmrz";
-  inputs.src-zstd-master.ref   = "master";
   inputs.src-zstd-master.repo  = "nim_zstd";
   inputs.src-zstd-master.type  = "github";
   
